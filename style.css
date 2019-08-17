@@ -142,17 +142,17 @@ h1 {
     text-align: center;
 
   }
+  .carousel-caption h1{
+    font-size:25px;
+    margin: auto;
+  }
 
 @media only screen and (max-width: 550px) {
   .jumbotron h1 {
     font-size: 4rem;
   }
-  .container-fluid{
-  }
 
-}y {
-    margin-top: 150px;
-  }
+}
 }
 
 /* Project Image Containers */
