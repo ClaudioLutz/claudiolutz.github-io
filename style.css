@@ -144,7 +144,11 @@ h1 {
   }
   .carousel-caption h1{
     font-size:25px;
-    margin: auto;
+
+  }
+  .carousel-caption p{
+    font-size:25px;
+
   }
 
 @media only screen and (max-width: 550px) {
