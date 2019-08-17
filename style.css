@@ -37,6 +37,9 @@ iframe{
 .row{
   grid-template-columns: repeat(auto-fill, minmax(2200px, 1fr));
 }
+nav ul{
+  float: left;
+}
 
 /* Bootstrap Overrides */
 
@@ -160,6 +163,9 @@ h1 {
   }
   .btn-primary{
     width: 100%;
+  }
+  body{
+    margin-top: 60px;
   }
 
 }
