@@ -88,10 +88,7 @@ iframe{
 
 /* Navigation */
 
-.navbar {
-  font-size: 1.1rem;
-  font-weight: 600;
-}
+
 
 /* Jumbotron */
 
@@ -154,6 +151,12 @@ h1 {
 @media only screen and (max-width: 550px) {
   .jumbotron h1 {
     font-size: 4rem;
+  }
+  .navbar{
+    display: none;
+  }
+  .btn-primary{
+    width: 100%;
   }
 
 }
