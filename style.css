@@ -51,7 +51,7 @@ nav ul{
 }
 
 .btn-primary {
-  width: 160px;
+  width: 130px;
   padding: 1.3rem 0;
   border: 0;
   margin-top: 2.8rem;
@@ -137,7 +137,14 @@ h1 {
     margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 767px) {
+#email-button{
+  display: none;
+}
+¨.btn-primary{
+  width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
   .jumbotron h1 {
     font-size: 5.7rem;
   }
@@ -150,8 +157,12 @@ h1 {
   .carousel-caption p{
     font-size:25px;
   }
-  #googleform{
+  .freebirdFormviewerViewFormContent{
     display: none;
+  }
+  #email-button{
+    display: none;
+    width: 100%;
   }
 
 @media only screen and (max-width: 550px) {
@@ -165,10 +176,14 @@ h1 {
     width: 100%;
   }
   body{
-    margin-top: 60px;
+    margin-top: 120px;
   }
-  #googleform{
+  iframe{
     display: none;
+  }
+  #email-button{
+    display: block;
+    width: 100%;
   }
 
 }
@@ -248,7 +263,4 @@ h1 {
   margin: auto;
 }
 /*Kontakt Formular*/
-iframe{
-  width: 900px;
-  height: 1000px;
-}
+
